@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>call me</title>
+</head>
+<style>
+      /* اجعل كل العناصر تتناسب مع الشاشة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* جعل الصفحة مرنة */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px; /* الحد الأقصى للعرض */
+  margin: auto;
+  padding: 10px;
+}
+
+/* الصور والفيديوهات تكون قابلة للتصغير */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* الحاوية الرئيسية */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* العناصر داخل الحاوية */
+.card {
+  flex: 1 1 calc(33.333% - 20px); /* ثلاث أعمدة في الكمبيوتر */
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* للشاشات المتوسطة (تابلت) */
+@media (max-width: 992px) {
+  .card {
+    flex: 1 1 calc(50% - 20px); /* عمودين */
+  }
+}
+
+/* للشاشات الصغيرة (موبايل) */
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%; /* عمود واحد */
+  }
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #444;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3);
+}
+
+/* ألوان مميزة لكل أيقونة */
+.fa-instagram { color: #E1306C; }
+.fa-tiktok { color: #000; }
+.fa-whatsapp { color: #25D366; }
+.fa-facebook { color: #1877F2; }
+body{
+    background-image: url(img/grey_bwvcmfpy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .header{
+    font-size: xx-large;
+    margin:0%;
+    border: 50px;
+    text-align: right;
+    background-color:rgb(174, 168, 168);
+    padding: 2px;
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+  }
+  .text{
+    text-align: center;
+    color: #000000;
+  }
+</style>
+<body>
+  <div class="header">
+ <a href="project.html" title= "home" >🏠</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="3project3.html" title= "call me" >📞</a>   
+  
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+    <div class="text">
+        يمكنك التواصل معي بسهولة لمناقشة أفكارك وتحويل رؤيتك إلى موقع ويب ناجح يعكس هويتك ويحقق أهدافك.
+    </div>
+    <br>
+     <br>
+      <br>
+       <br>
+        <br>
+         <br>
+<div class="social-icons">
+  <a href="https://www.instagram.com/mones____aboalhool?igsh=MWpodndrM25yMXd6Mg==" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.tiktok.com/@20_haydra?_t=ZM-8yRECXHM1W1&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+  <a href="https://wa.me/931803680" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://www.facebook.com/share/1CJyfC3azx/" target="_blank"><i class="fab fa-facebook"></i></a>
+</div>
+</body>
+</html>
